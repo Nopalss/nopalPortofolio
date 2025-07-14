@@ -24,7 +24,6 @@ body{
 
 .body {
   display: flex;
-  width: 90%;
   max-width: 1200px;
   margin: auto;
   font-family: "Quicksand", sans-serif;
