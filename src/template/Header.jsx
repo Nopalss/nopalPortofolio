@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Header = () => {
-  const [muncul, setMuncul] = useState(false);
+ 
   return (
     <header>
     <nav>
