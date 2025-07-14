@@ -13,10 +13,10 @@ export const App = () => {
       delay: 200,
       reset: false,
     });
-    sr.reveal(".bottom", { origin: "bottom" });
+    sr.reveal(".bottom", { origin: "top" });
     sr.reveal(".top", { origin: "top" });
-    sr.reveal(".left", { origin: "left" });
-    sr.reveal(".right", { origin: "right" });
+    sr.reveal(".left", { origin: "top" });
+    sr.reveal(".right", { origin: "top" });
   });
   return (
     <>
