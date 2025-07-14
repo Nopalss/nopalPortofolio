@@ -19,12 +19,13 @@ export const App = () => {
     sr.reveal(".right", { origin: "right" });
   });
   return (
-    
+    <>
     <div className='body'>
       <Header/>
       <Main/>
-      <Footer/>
     </div>
+      <Footer/>
+    </>
   )
 }
 

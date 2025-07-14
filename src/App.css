@@ -340,6 +340,7 @@ footer {
   background-color: #fffefe14;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  margin-top: 4em;
   padding: 2rem;
   padding-bottom: 0px;
   display: flex;
@@ -410,24 +411,24 @@ footer .copy {
   padding: 1rem;
 }
 @media screen and (max-width: 1400px) {
-  body {
+  .body {
     margin: auto;
     width: 100%;
     padding-inline: 20px;
   }
 }
 @media screen and (max-width: 998px) {
-  body {
+  .body {
     flex-direction: column;
     padding: 2rem;
     padding-bottom: 0;
     gap: 5rem;
   }
-  body header {
+  .body header {
     height: 0;
     z-index: 1000;
   }
-  body header nav div.desktop {
+  .body header nav div.desktop {
     top: 40%;
     background-color: #1b1a1b;
     border-top-right-radius: 10px;
@@ -441,10 +442,10 @@ footer .copy {
     z-index: 1000;
     left: -56px;
   }
-  body main {
+  .body main {
     flex-direction: column;
   }
-  body main aside {
+  .body main aside {
     position: static;
     box-shadow: none;
     margin-top: 5rem;
@@ -457,27 +458,27 @@ footer .copy {
     align-items: center;
     z-index: -10;
   }
-  body main aside .image {
+  .body main aside .image {
     width: 350px;
     height: 350px;
     margin-bottom: 10px;
   }
-  body main aside .image img {
+  .body main aside .image img {
     box-shadow: white 0px 0px 10px;
   }
  
 }
 @media screen and (max-width: 630px) {
-  body {
+  .body {
     padding: 1rem 1rem 0px 1rem;
   }
-  body header {
+  .body header {
     justify-content: center;
     align-items: center;
     gap: 0;
   }
 
-  body main aside .image {
+  .body main aside .image {
     width: 320px;
     height: 320px;
   }
@@ -505,6 +506,7 @@ footer .copy {
 }
 @media screen and (max-width: 435px) {
   .body {
+    width: 100%;
     padding: 0.7rem 0.7rem 0px 0.7rem;
   }
   .body main aside .image {
